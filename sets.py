@@ -11,6 +11,7 @@ print(s) # {1, 2, 3, 4, 5} once every element
 a = set() # empty  set
 print(type(a))  #class set
 
+# lists cant be in a set as elements !!! 
 
 # SET FUNCTIONS
 
