@@ -34,4 +34,14 @@ elif(num3> num1 and num3 > num2 and num3 > num4):
 else:
     print(f"{num4} is greatestt")
 
+# -----------------------------------check for spam now
+    
+p1 = "buy this"
+p2 = "make a lot of money"
+p3 = "subscribe now"
+p4 = "click this"
 
+message = input("Enter your message: ")
+
+if(p1 in message or p2 in message or p3 in message or p4 in message):
+    print("\"",message, "\" is a spam text!")
