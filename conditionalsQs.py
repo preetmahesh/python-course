@@ -45,3 +45,30 @@ message = input("Enter your message: ")
 
 if(p1 in message or p2 in message or p3 in message or p4 in message):
     print("\"",message, "\" is a spam text!")
+
+# PUT ELSE FOR TEXTS WHICH ARE NOT SPAM
+    
+else:
+    print("This comment is not a spam")
+
+# --------------------- username length less than 10 chars
+    
+username = input("Enter a username: ")
+length = len(username)
+
+if(length < 10):
+    print("Username is less than 10 chars long!")
+
+else: 
+    print("Longer than 10")
+
+# --------------- find if the post is talking about preet
+    
+post = input("Enter your post: ")
+
+if("preet".lower() in post.lower()):  # this ensures even Preet or prEet is valid
+    print("This post is talking about preet!")
+
+else:
+    print("booooo")
+    
